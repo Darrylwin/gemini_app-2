@@ -75,6 +75,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       onSubmitted: _sendChatMessage,
                     ),
                   ),
+                  const SizedBox(width: 15),
+                  IconButton(icon: Icon(Icons.send), onPressed: (){}),
                   const SizedBox(height: 15),
                 ],
               ),
